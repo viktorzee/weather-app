@@ -62,7 +62,7 @@ const SearchSideBar = ({theme, setTheme}: any) => {
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center gap-10 lg:h-screen md:h-screen">
-                <div className="flex items-end">
+                <div className="flex justify-center md:h-[20%] xl:items-start">
                   {weatherData &&
                     weatherData.weather &&
                     weatherConditionsIcons[weatherData.weather[0].icon] && (
@@ -71,7 +71,7 @@ const SearchSideBar = ({theme, setTheme}: any) => {
                           weatherConditionsIcons[weatherData.weather[0].icon][0]
                         }
                         alt=""
-                        className="w-full md:h-[50%]"
+                        className="w-[45%] md:w-full md:h-full"
                       />
                     )}
                 </div>

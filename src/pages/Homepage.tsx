@@ -97,7 +97,7 @@ const Homepage = () => {
           <div className={`lg:flex-1 xl:w-[20%] ${theme === 'dark' && 'bg-gray-800'} bg-white`}>
             <SearchSideBar theme={theme} setTheme={setTheme} />
           </div>
-          <div className="lg:w-[80%] h-full  lg:overflow-y-auto">
+          <div className="lg:w-[80%] xl:w-[73%] h-full  lg:overflow-y-auto">
             <header className="flex justify-between items-center"> 
               <div className="flex items-center text-lg font-semibold">
                 <h1 className="text-gray-300">Today</h1>
