@@ -10,7 +10,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route>
-              <Route path="/" element={<Homepage />} />
+              <Route path="/weather-app" element={<Homepage />} />
             </Route>
           </Routes>
         </BrowserRouter>

@@ -1,5 +1,6 @@
 {
-  "name": "weather-dashboard",
+  "homepage": "https://viktorzee.github.io/weather-app/",
+  "name": "weather-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,6 +8,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -29,6 +32,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.0.2",

@@ -1,11 +1,11 @@
 import {  useEffect, useState } from "react";
-import Sun from "../../assets/images/sun.png";
-import LightCloud from "../../assets/images/LightCloud.png";
-import Cloud from "../../assets/images/cloud.png";
-import Shower from "../../assets/images/Shower.png";
-import Rainy from "../../assets/images/rainy.png";
-import Thunderstorm from "../../assets/images/Thunderstorm.png";
-import Snow from "../../assets/images/Snow.png";
+import Sun from "../assets/images/sun.png";
+import LightCloud from "../assets/images/LightCloud.png";
+import Cloud from "../assets/images/cloud.png";
+import Shower from "../assets/images/Shower.png";
+import Rainy from "../assets/images/rainy.png";
+import Thunderstorm from "../assets/images/Thunderstorm.png";
+import Snow from "../assets/images/Snow.png";
 import { getOrganizedNextDaysWeatherData } from "../services";
 import Temperature from "./Temparature";
 import WeatherContext from "../context/Weather.Context";
